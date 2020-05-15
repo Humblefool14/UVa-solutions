@@ -19,6 +19,7 @@ int main()
       for(int i=0;i<t;i++)
       {
           sum+= abs(arr[i]-average);
+        // Apply only for small boxes whose height less than average and find the difference. 
       }
       sum = sum/2;
       ++counter;
