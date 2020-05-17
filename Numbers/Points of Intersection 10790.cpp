@@ -9,3 +9,6 @@ int main()
  }
  return 0; 
 }
+// Selecting 2 pts from one side and realising no.of lines formed.
+// Multiply it with other side. 
+
