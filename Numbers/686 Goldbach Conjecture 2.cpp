@@ -23,22 +23,14 @@ void sieve() {          // create list of primes in [0..upperbound]
 int main()
 {
     sieve();
-    while(cin >> n,n!=0)
+    while(cin >> n,n!=0 && n>=6)
     {
-        if(n<6)
-        {
-            cout << " Not declared" << endl;
-            break;
-        }
         int count =0;
         vector<int>::iterator i;
-        for(i=primes.begin();i<=primes.end()&& (*i)<(n/2);i++)
-        {
+        for(i=primes.begin();i<=primes.end()&& (*i)<(n/2);i++){
             // check the primes
             if(bs[n-(*i)])
-            {
                 count++;
-            }
         }
         cout << count << endl;
     }
