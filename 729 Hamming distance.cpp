@@ -23,3 +23,9 @@ int main(){
    }
 return 0;
 }
+
+/*
+ int hamming(int a, int b) {
+  return __builtin_popcount(a^b);
+}
+*/ 
